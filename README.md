@@ -4,10 +4,8 @@
 <h3 align="center">I'm a Software Developer from India.</h3>
 
 ## 🙋‍♂️ About Me
-
-- 🔭 I’m currently working in **[Covalensedigital](https://covalensedigital.com/)** as a Software Developer.
-
-- 🌱 I’m currently learning **Data Science,Machine Learning,Python**
+- 📚 Currently pursuing my Masters in Data Science at University of Central Oklahoma.
+- 🔭 Worked as a Software Developer in **[Covalensedigital](https://covalensedigital.com/)** for 2 Years.
 - 👯 I’m looking to collaborate on various projects , open source contributions, research papers etc
 - 💬 Ask me about any tech related stuff, I will be happy to help.
 - 📫 How to reach me **rahulvenkat126@gmail.com**
