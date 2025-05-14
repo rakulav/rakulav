@@ -12,7 +12,7 @@
 
 ## 🚀 Languages and Tools:
 
-<h3 align="left">Languages and Tools:</h3>
+
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=aws,ansible,jenkins,grafana,git,kubernetes,docker,python,linux,vim,elasticsearch,firebase,flutter,gitlab,gradle,kafka,matlab,mysql,mongodb,nodejs,opencv,postgres,pytorch.react,scala,scala,tensorflow,ubuntu,” />
