@@ -10,6 +10,8 @@
 - 💬 Ask me about any tech related stuff, I will be happy to help.
 - 📫 How to reach me **rakulav01@gmail.com**
 
+  [![trophy](https://github-profile-trophy.vercel.app/?username=rakulav)](https://github.com/rakulav/github-profile-trophy)
+
 ## 🚀 Languages and Tools:
 
 
