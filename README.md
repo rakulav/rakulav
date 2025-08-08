@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 - 📚 Currently pursuing my Masters in Data Science at University of Central Oklahoma.
-- 🔭 Worked as a Data Engineer in **[Covalensedigital](https://covalensedigital.com/)** for 3 Years.
+- 🔭 Worked as a Data Engineer in **[Covalensedigital](https://covalensedigital.com/)** for 2 Years.
 - 👯 I’m looking to collaborate on various projects , open source contributions, research papers etc
 - 💬 Ask me about any tech related stuff, I will be happy to help.
 - 📫 How to reach me **rakulav01@gmail.com**
