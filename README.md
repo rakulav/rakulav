@@ -6,7 +6,7 @@
 ---
 
 ## 👨‍💻 About Me  
-- 🎓 Pursuing my **Master’s in Data Science** at *University of Central Oklahoma* (USA).  
+- 🎓 Masters Data Science Graduate (USA).  
 - 💼 **3+ years** of experience as a Software Engineer specializing in **Machine Learning, Data Engineering, and Cloud AI Pipelines**.  
 - 🤝 Passionate about **collaborative open-source projects**, research, and real-world AI applications.  
 - 🧠 Currently exploring **Agentic AI**, **RAG systems**, and **LLM optimization for production**.  
