@@ -7,7 +7,7 @@
 
 ## 👨‍💻 About Me  
 - 🎓 Masters Data Science Graduate (USA).  
-- 💼 **3+ years** of experience as a Software Engineer specializing in **Machine Learning, Data Engineering, and Cloud AI Pipelines**.  
+- 💼 **5+ years** of experience as a Software Engineer specializing in **Machine Learning, Artificial Intelligence, and Cloud AI Pipelines**.  
 - 🤝 Passionate about **collaborative open-source projects**, research, and real-world AI applications.  
 - 🧠 Currently exploring **Agentic AI**, **RAG systems**, and **LLM optimization for production**.  
 - 💬 Always up for discussions on **AI, ML, Cloud, and Automation**.  
