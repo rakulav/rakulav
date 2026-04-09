@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-label="Rakul Venkatesan — AI Engineer | GenAI, RAG, Agentic Systems">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="50%" stop-color="#141937"/>
+      <stop offset="100%" stop-color="#1a1045"/>
+    </linearGradient>
+    <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="chip1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="chip2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="chip3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#10b981"/></linearGradient>
+    <linearGradient id="chip4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#ffffff" fill-opacity="0.08"/>
+    </pattern>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" fill="url(#bgGrad)"/>
+  <rect width="1400" height="420" fill="url(#dots)"/>
+
+  <g filter="url(#softBlur)">
+    <circle cx="220" cy="100" r="180" fill="url(#blob1)"/>
+    <circle cx="1180" cy="320" r="220" fill="url(#blob2)"/>
+    <circle cx="800" cy="60" r="160" fill="url(#blob3)"/>
+  </g>
+
+  <rect x="60" y="60" width="1280" height="300" rx="28" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="1.5"/>
+  <rect x="60" y="60" width="1280" height="300" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+
+  <g transform="translate(100, 96)">
+    <rect width="200" height="32" rx="16" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1"/>
+    <circle cx="18" cy="16" r="4" fill="#22c55e">
+      <animate attributeName="fill-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="21" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" fill="#4ade80">open to senior AI roles</text>
+  </g>
+
+  <text x="100" y="200" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="64" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1.5">
+    Rakul Venkatesan
+  </text>
+
+  <text x="102" y="238" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="500" fill="#cbd5e1">
+    AI Engineer  ·  GenAI, RAG, Agentic Systems
+  </text>
+
+  <g transform="translate(100, 258)">
+    <circle cx="7" cy="7" r="3" fill="#94a3b8"/>
+    <text x="18" y="11" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif" font-size="13" fill="#94a3b8">San Jose, CA  ·  Fannie Mae alum  ·  ex-Intuit</text>
+  </g>
+
+  <g font-family="-apple-system, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif">
+    <g transform="translate(100, 292)">
+      <rect width="285" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="url(#chip1)" stroke-width="1.2"/>
+      <text x="16" y="22" font-size="11" font-weight="500" fill="#94a3b8" letter-spacing="0.5">HALLUCINATIONS</text>
+      <text x="16" y="40" font-size="15" font-weight="700" fill="#e0e7ff">▼ 52%  on policy corpus</text>
+    </g>
+    <g transform="translate(400, 292)">
+      <rect width="285" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="url(#chip2)" stroke-width="1.2"/>
+      <text x="16" y="22" font-size="11" font-weight="500" fill="#94a3b8" letter-spacing="0.5">P95 LATENCY</text>
+      <text x="16" y="40" font-size="15" font-weight="700" fill="#cffafe">2.1s → 780ms  on EKS</text>
+    </g>
+    <g transform="translate(700, 292)">
+      <rect width="285" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="url(#chip3)" stroke-width="1.2"/>
+      <text x="16" y="22" font-size="11" font-weight="500" fill="#94a3b8" letter-spacing="0.5">AGENT COST / SCAN</text>
+      <text x="16" y="40" font-size="15" font-weight="700" fill="#d1fae5">$0.41 → $0.09  (▼78%)</text>
+    </g>
+    <g transform="translate(1000, 292)">
+      <rect width="240" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="url(#chip4)" stroke-width="1.2"/>
+      <text x="16" y="22" font-size="11" font-weight="500" fill="#94a3b8" letter-spacing="0.5">FRAUD PRECISION</text>
+      <text x="16" y="40" font-size="15" font-weight="700" fill="#fef3c7">▲ 18%  at Intuit</text>
+    </g>
+  </g>
+</svg>
