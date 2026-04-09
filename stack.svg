@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 460" role="img" aria-label="Tech stack">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="100%" stop-color="#141937"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="cardBorder3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="hdr1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="hdr2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="hdr3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#10b981"/></linearGradient>
+    <linearGradient id="hdr4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <radialGradient id="glw" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blr3"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+
+  <rect width="1400" height="460" fill="url(#bg3)"/>
+  <g filter="url(#blr3)">
+    <circle cx="700" cy="230" r="250" fill="url(#glw)"/>
+  </g>
+
+  <text x="60" y="58" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="22" font-weight="700" fill="#ffffff">Tech stack</text>
+  <text x="60" y="82" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">What I reach for when building production LLM systems</text>
+
+  <!-- card 1: Agentic AI -->
+  <g transform="translate(60, 110)">
+    <rect width="310" height="320" rx="16" fill="url(#card3)" stroke="url(#cardBorder3)" stroke-width="1"/>
+    <rect x="0" y="0" width="310" height="4" rx="2" fill="url(#hdr1)"/>
+    <text x="24" y="36" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#8b5cf6" letter-spacing="1">AGENTIC AI</text>
+    <text x="24" y="54" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Orchestration</text>
+
+    <g font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">
+      <text x="24" y="92">◆ LangGraph</text>
+      <text x="24" y="116">◆ LangChain</text>
+      <text x="24" y="140">◆ LlamaIndex</text>
+      <text x="24" y="164">◆ CrewAI</text>
+      <text x="24" y="188">◆ Claude MCP</text>
+      <text x="24" y="212">◆ OpenAI Agents SDK</text>
+      <text x="24" y="236">◆ Vertex AI Agent Builder</text>
+      <text x="24" y="260">◆ ReAct reasoning</text>
+    </g>
+
+    <rect x="24" y="280" width="60" height="22" rx="11" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-opacity="0.4"/>
+    <text x="54" y="295" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" fill="#c7d2fe">DAILY</text>
+  </g>
+
+  <!-- card 2: LLMs + Training -->
+  <g transform="translate(390, 110)">
+    <rect width="310" height="320" rx="16" fill="url(#card3)" stroke="url(#cardBorder3)" stroke-width="1"/>
+    <rect x="0" y="0" width="310" height="4" rx="2" fill="url(#hdr2)"/>
+    <text x="24" y="36" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#06b6d4" letter-spacing="1">LLMs &amp; TRAINING</text>
+    <text x="24" y="54" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Models &amp; inference</text>
+
+    <g font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">
+      <text x="24" y="92">◆ Claude (Sonnet 4.6, Haiku 4.5)</text>
+      <text x="24" y="116">◆ Llama 3</text>
+      <text x="24" y="140">◆ PyTorch · HuggingFace</text>
+      <text x="24" y="164">◆ QLoRA · PEFT · DPO</text>
+      <text x="24" y="188">◆ vLLM · TGI · Triton</text>
+      <text x="24" y="212">◆ bge · e5 embeddings</text>
+      <text x="24" y="236">◆ bge-reranker-v2-m3</text>
+      <text x="24" y="260">◆ quantization · batching</text>
+    </g>
+
+    <rect x="24" y="280" width="80" height="22" rx="11" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-opacity="0.4"/>
+    <text x="64" y="295" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" fill="#a5f3fc">PRODUCTION</text>
+  </g>
+
+  <!-- card 3: Cloud + MLOps -->
+  <g transform="translate(720, 110)">
+    <rect width="310" height="320" rx="16" fill="url(#card3)" stroke="url(#cardBorder3)" stroke-width="1"/>
+    <rect x="0" y="0" width="310" height="4" rx="2" fill="url(#hdr3)"/>
+    <text x="24" y="36" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#22c55e" letter-spacing="1">CLOUD &amp; MLOPS</text>
+    <text x="24" y="54" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Infrastructure</text>
+
+    <g font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">
+      <text x="24" y="92">◆ AWS (SageMaker, Bedrock)</text>
+      <text x="24" y="116">◆ EKS · Lambda · S3 · Glue</text>
+      <text x="24" y="140">◆ OpenSearch · EMR · Athena</text>
+      <text x="24" y="164">◆ GCP (Vertex AI, BigQuery)</text>
+      <text x="24" y="188">◆ Kubernetes · Docker</text>
+      <text x="24" y="212">◆ Terraform · CI/CD</text>
+      <text x="24" y="236">◆ Prometheus · Grafana</text>
+      <text x="24" y="260">◆ OpenTelemetry · MLflow</text>
+    </g>
+
+    <rect x="24" y="280" width="95" height="22" rx="11" fill="#22c55e" fill-opacity="0.2" stroke="#22c55e" stroke-opacity="0.4"/>
+    <text x="71" y="295" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" fill="#bbf7d0">AWS CERTIFIED</text>
+  </g>
+
+  <!-- card 4: Data + Stores -->
+  <g transform="translate(1050, 110)">
+    <rect width="290" height="320" rx="16" fill="url(#card3)" stroke="url(#cardBorder3)" stroke-width="1"/>
+    <rect x="0" y="0" width="290" height="4" rx="2" fill="url(#hdr4)"/>
+    <text x="24" y="36" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#f59e0b" letter-spacing="1">DATA &amp; STORES</text>
+    <text x="24" y="54" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Retrieval &amp; analytics</text>
+
+    <g font-family="-apple-system, sans-serif" font-size="13" fill="#cbd5e1">
+      <text x="24" y="92">◆ Python · C++ · SQL</text>
+      <text x="24" y="116">◆ Qdrant · Pinecone · Milvus</text>
+      <text x="24" y="140">◆ Weaviate · OpenSearch</text>
+      <text x="24" y="164">◆ PostgreSQL · MongoDB</text>
+      <text x="24" y="188">◆ Snowflake · Redis</text>
+      <text x="24" y="212">◆ XGBoost · LightGBM</text>
+      <text x="24" y="236">◆ PySpark · Pandas</text>
+      <text x="24" y="260">◆ scikit-learn · MLflow</text>
+    </g>
+
+    <rect x="24" y="280" width="60" height="22" rx="11" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <text x="54" y="295" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" fill="#fde68a">HYBRID</text>
+  </g>
+</svg>

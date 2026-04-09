@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 380" role="img" aria-label="Impact metrics">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="100%" stop-color="#141937"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#10b981"/></linearGradient>
+    <linearGradient id="bar4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="bar5" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="bar6" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blr"><feGaussianBlur stdDeviation="50"/></filter>
+  </defs>
+
+  <rect width="1400" height="380" fill="url(#bg2)"/>
+  <g filter="url(#blr)">
+    <circle cx="200" cy="100" r="150" fill="url(#glow1)"/>
+    <circle cx="1200" cy="280" r="150" fill="url(#glow1)"/>
+  </g>
+
+  <!-- title -->
+  <text x="60" y="58" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Impact at a glance</text>
+  <text x="60" y="82" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif" font-size="13" fill="#94a3b8">Selected metrics from Fannie Mae, Intuit, and side projects</text>
+
+  <!-- 6-card grid: 3 cols x 2 rows, each 420x110, 20 gutter -->
+
+  <!-- card 1: hallucinations -->
+  <g transform="translate(60, 110)">
+    <rect width="420" height="110" rx="16" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1"/>
+    <text x="24" y="32" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">HALLUCINATION REDUCTION</text>
+    <text x="24" y="68" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#e0e7ff">−52%</text>
+    <text x="130" y="68" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">on 500-q policy eval</text>
+    <rect x="24" y="82" width="372" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="24" y="82" width="193" height="6" rx="3" fill="url(#bar1)"/>
+    <text x="24" y="102" font-family="-apple-system, sans-serif" font-size="10" fill="#64748b">Fannie Mae · hybrid BM25 + dense retrieval</text>
+  </g>
+
+  <!-- card 2: latency -->
+  <g transform="translate(500, 110)">
+    <rect width="420" height="110" rx="16" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1"/>
+    <text x="24" y="32" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">P95 INFERENCE LATENCY</text>
+    <text x="24" y="68" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#cffafe">780<tspan font-size="18" fill="#94a3b8">ms</tspan></text>
+    <text x="130" y="68" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">down from 2.1s</text>
+    <rect x="24" y="82" width="372" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="24" y="82" width="279" height="6" rx="3" fill="url(#bar2)"/>
+    <text x="24" y="102" font-family="-apple-system, sans-serif" font-size="10" fill="#64748b">Fannie Mae · vLLM on EKS + batching + KV cache</text>
+  </g>
+
+  <!-- card 3: cost -->
+  <g transform="translate(940, 110)">
+    <rect width="400" height="110" rx="16" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1"/>
+    <text x="24" y="32" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">AGENT COST / SCAN</text>
+    <text x="24" y="68" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#d1fae5">−78%</text>
+    <text x="130" y="68" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">$0.41 → $0.09</text>
+    <rect x="24" y="82" width="352" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="24" y="82" width="275" height="6" rx="3" fill="url(#bar3)"/>
+    <text x="24" y="102" font-family="-apple-system, sans-serif" font-size="10" fill="#64748b">CloudPilot · Haiku → Sonnet routing</text>
+  </g>
+
+  <!-- card 4: fraud -->
+  <g transform="translate(60, 240)">
+    <rect width="420" height="110" rx="16" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1"/>
+    <text x="24" y="32" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">FRAUD PRECISION @ RECALL</text>
+    <text x="24" y="68" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#fef3c7">+18%</text>
+    <text x="130" y="68" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">across millions of txns</text>
+    <rect x="24" y="82" width="372" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="24" y="82" width="67" height="6" rx="3" fill="url(#bar4)"/>
+    <text x="24" y="102" font-family="-apple-system, sans-serif" font-size="10" fill="#64748b">Intuit · QuickBooks Online · XGBoost on SageMaker</text>
+  </g>
+
+  <!-- card 5: retrieval precision -->
+  <g transform="translate(500, 240)">
+    <rect width="420" height="110" rx="16" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1"/>
+    <text x="24" y="32" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">TOP-5 RETRIEVAL PRECISION</text>
+    <text x="24" y="68" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#ccfbf1">67 → 89%</text>
+    <text x="220" y="68" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">150-q eval</text>
+    <rect x="24" y="82" width="372" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="24" y="82" width="331" height="6" rx="3" fill="url(#bar5)"/>
+    <text x="24" y="102" font-family="-apple-system, sans-serif" font-size="10" fill="#64748b">PaperMind · GROBID structural parsing + reranker</text>
+  </g>
+
+  <!-- card 6: multi-hop -->
+  <g transform="translate(940, 240)">
+    <rect width="400" height="110" rx="16" fill="url(#card)" stroke="url(#cardBorder)" stroke-width="1"/>
+    <text x="24" y="32" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">MULTI-HOP ACCURACY</text>
+    <text x="24" y="68" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#f3e8ff">82%</text>
+    <text x="130" y="68" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">vs 34% baseline</text>
+    <rect x="24" y="82" width="352" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="24" y="82" width="289" height="6" rx="3" fill="url(#bar6)"/>
+    <text x="24" y="102" font-family="-apple-system, sans-serif" font-size="10" fill="#64748b">PaperMind · LangGraph query decomposition</text>
+  </g>
+</svg>
